@@ -1,9 +1,11 @@
 package com.abani.mart.activities;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 
 import android.os.Bundle;
+
 
 import com.abani.mart.adapters.ProductAdapter;
 import com.abani.mart.databinding.ActivityCategoryBinding;
@@ -15,6 +17,11 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
+
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,14 +33,34 @@ public class CategoryActivity extends AppCompatActivity {
     ActivityCategoryBinding binding;
 
     ////////Product Part same to Category wise product
-    ArrayList<ProductModel> products;
-    ProductAdapter productAdapter;
+    private ArrayList<ProductModel> products;
+    private ProductAdapter productAdapter;
+    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityCategoryBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        InterstitialAd.load(this,"ca-app-pub-9664160363258642/5876416431", adRequest,
+                new InterstitialAdLoadCallback() {
+                    @Override
+                    public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                        mInterstitialAd = interstitialAd;
+                        binding.adView2.loadAd(adRequest);
+                        mInterstitialAd.show(CategoryActivity.this);
+                    }
+                    @Override
+                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                        // Handle the error
+                        mInterstitialAd = null;
+                        binding.adView2.loadAd(adRequest);
+
+                    }
+                });
+
 
         int categoryId = getIntent().getIntExtra("categoryId", 0);
         String categoryName = getIntent().getStringExtra("categoryName");
