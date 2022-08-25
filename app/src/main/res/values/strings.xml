@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mart</string>
+    <string name="profile">Profile</string>
+    <string name="language">Language</string>
+    <string name="home">Home</string>
+    <string name="abani_mart">ABANI MART</string>
+    <string name="abanimartonline_gmail_com">abanimartonline@gmail.com</string>
+    <string name="category">Category</string>
+    <string name="list">List</string>
+    <string name="cart">Cart</string>
+    <string name="seller">Seller</string>
+    <string name="customer_service">Customer Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="send_your_feedback">Send Your Feedback</string>
+    <string name="help_and_settings">Help and Settings</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abani.mart">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mart"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.SearchActivity"
+            android:theme="@style/Theme.Abani"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CategoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Abani" />
+        <activity
+            android:name=".activities.PaymentActivity"
+            android:exported="false"
+            android:label="Payment Page"
+            android:theme="@style/Theme.Abani" />
+        <activity
+            android:name=".activities.CheckoutActivity"
+            android:exported="false"
+            android:label="Checkout"
+            android:theme="@style/Theme.Abani" />
+        <activity
+            android:name=".activities.CartActivity"
+            android:exported="false"
+            android:label="Shopping Card"
+            android:theme="@style/Theme.Abani" />
+        <activity
+            android:name=".activities.ProductDetailsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Abani">
+
+            <intent-filter>
+                <action android:name=".activities.ProductDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+
+
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

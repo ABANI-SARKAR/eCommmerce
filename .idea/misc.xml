@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/drawable-v24/cart.xml" value="0.3335" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/drawable-v24/category.xml" value="0.3335" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/drawable-v24/customerservice.xml" value="0.3335" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/drawable-v24/feedback.xml" value="0.3335" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/drawable-v24/language.xml" value="0.3335" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/drawable-v24/list.xml" value="0.3335" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/drawable-v24/policy.xml" value="0.3335" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/drawable-v24/seller.xml" value="0.3335" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/drawable/round_box.xml" value="0.3415" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/activity_cart.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/activity_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/activity_checkout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/activity_payment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/activity_product_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/activity_search.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/nav_header.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/quantity_dialog.xml" value="0.365625" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/round_box.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/sample_cart.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/sample_categories.xml" value="0.33" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/sample_category.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/layout/sample_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/menu/cart.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ADMIN/.android/Mart/app/src/main/res/menu/nav_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

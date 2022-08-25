@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555518346207",
+    "project_id": "mart-1ba8e",
+    "storage_bucket": "mart-1ba8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555518346207:android:9ad3f905338f0eddd7fa6a",
+        "android_client_info": {
+          "package_name": "com.abani.mart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555518346207-m4m6em639ljbpbvmpreh1nn2i0b2qib5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5SB_zrXSTaP-VBtQ2vOQ1GUzPmmlBT9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555518346207-m4m6em639ljbpbvmpreh1nn2i0b2qib5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
